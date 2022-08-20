@@ -33,6 +33,11 @@ a {
     border-top: 1px solid #e1e1e1;
     padding: 20px 0;
 }
+.nav-principal {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
 
 .hero {
     background-image: url('../img/principal.jpg');
