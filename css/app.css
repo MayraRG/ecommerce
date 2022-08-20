@@ -17,6 +17,9 @@ a {
     max-width: 1200px;
     margin: 0 auto;
 }
+img {
+    max-width: 100%;
+}
 
 /** Header y Navegacion **/
 .nombre-sitio {
@@ -44,4 +47,9 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
+}
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
