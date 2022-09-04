@@ -44,7 +44,7 @@ a {
     margin: 0 auto;
 }
 
-img {
+Img {
     max-width: 100%;
     display: block;
 }
@@ -301,7 +301,7 @@ img {
     gap: 2rem;
 }
 
-.galeria img {
+.galeria Img {
     height: 40rem;
     width: 40rem;
     object-fit: cover;
