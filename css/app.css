@@ -47,6 +47,7 @@ img {
     font-weight: 900;
     padding: 1rem;
     transition: background-color .3s ease-out;
+    text-align: center;
 }
 .btn:hover {
     background-color: #769c02;
@@ -55,6 +56,9 @@ img {
 /** Utilidades **/
 .text-center{
     text-align: center;
+}
+.max-width-30 {
+    max-width: 30rem;
 }
 
 /** Header y Navegacion **/
@@ -220,4 +224,27 @@ margin-bottom: .5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+/** Blog **/
+.contenedor-blog {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem
+}
+.entrada {
+    border-bottom:2px solid #e1e1e1;
+    padding-bottom: 4rem;
+    margin-bottom:2 rem ;
+}
+.entrada: :last-of-type {
+    border:none;
+}
+.entrada-meta{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+.entrada-meta span {
+color: #037bc0;
 }
