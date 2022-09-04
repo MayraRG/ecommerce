@@ -237,7 +237,7 @@ margin-bottom: .5rem;
     padding-bottom: 4rem;
     margin-bottom:2 rem ;
 }
-.entrada: :last-of-type {
+.entrada :last-of-type {
     border:none;
 }
 .entrada-meta{
@@ -247,4 +247,8 @@ margin-bottom: .5rem;
 }
 .entrada-meta span {
 color: #037bc0;
+}
+.contenido-entrada-blog{
+    width: 60rem;
+    margin: 0 auto;
 }
